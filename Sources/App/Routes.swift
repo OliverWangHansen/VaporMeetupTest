@@ -21,7 +21,7 @@ extension Droplet {
         get("info") { req in
             return req.description
         }
-
+        //Test lorem
         get("description") { req in return req.description }
         
         try resource("posts", PostController.self)
